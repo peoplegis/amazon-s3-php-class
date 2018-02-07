@@ -1838,7 +1838,19 @@ class S3
 			'xml' => 'text/xml', 'xsl' => 'application/xsl+xml',
 			'ogg' => 'application/ogg', 'mp3' => 'audio/mpeg', 'wav' => 'audio/x-wav',
 			'avi' => 'video/x-msvideo', 'mpg' => 'video/mpeg', 'mpeg' => 'video/mpeg',
-			'mov' => 'video/quicktime', 'flv' => 'video/x-flv', 'php' => 'text/x-php'
+			'mov' => 'video/quicktime', 'flv' => 'video/x-flv', 'php' => 'text/x-php',
+
+			'xlsx' => 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+			'xltx' => 'application/vnd.openxmlformats-officedocument.spreadsheetml.template',
+			'potx' => 'application/vnd.openxmlformats-officedocument.presentationml.template',
+			'ppsx' => 'application/vnd.openxmlformats-officedocument.presentationml.slideshow',
+			'pptx' => 'application/vnd.openxmlformats-officedocument.presentationml.presentation',
+			'sldx' => 'application/vnd.openxmlformats-officedocument.presentationml.slide',
+			'docx' => 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+			'dotx' => 'application/vnd.openxmlformats-officedocument.wordprocessingml.template',
+			'xlam' => 'application/vnd.ms-excel.addin.macroEnabled.12',
+			'xlsb' => 'application/vnd.ms-excel.sheet.binary.macroEnabled.12'
+
 		);
 
 		$ext = strtolower(pathinfo($file, PATHINFO_EXTENSION));
